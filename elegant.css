@@ -10,14 +10,14 @@
 
 @font-face {
   font-family: 'Lovelo-Black';
-  src: url('fonts/Lovelo-Black.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+  */
-   url('fonts/Lovelo-Black.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+  src: url('/peterlari2020/fonts/Lovelo-Black.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+  */
+   url('/peterlari2020/fonts/Lovelo-Black.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
 }
 
 @font-face {
   font-family: 'Stylish-Calligraphy';
-  src: url('fonts/Stylish-Calligraphy.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-   url('fonts/Stylish-Calligraphy.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+  src: url('/peterlari2020/fonts/Stylish-Calligraphy.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+   url('/peterlari2020/fonts/Stylish-Calligraphy.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
 }
 
 .thedate {
@@ -31,7 +31,7 @@
 }
 
 .leaves {
-  background: url('assets/leaves-frame.png') no-repeat;
+  background: url('/peterlari2020/assets/leaves-frame.png') no-repeat;
   background-position: center;
   background-size: cover;
 }
