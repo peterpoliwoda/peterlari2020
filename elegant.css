@@ -29,11 +29,6 @@
   color: #242323;
 }
 
-.leaves-top {
-  background: url('/assets/leaves-top.png') no-repeat;
-  background-position: center top;
-}
-
 .leaves {
   background: url('/assets/leaves-frame.png') no-repeat;
   background-position: center;
