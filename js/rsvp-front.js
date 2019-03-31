@@ -1,5 +1,4 @@
 $(document).ready(function() {
-    var url = 'http://localhost:4001/rsvp/';
     $('#error-message').hide();
 
     function validateForm() {
@@ -26,6 +25,7 @@ $(document).ready(function() {
             };
 
             $.post(url, data, function(data, status) {
+                var url = 'http://peterpoliwoda.me:4001/rsvp/';
                 console.log(`${data} and status is ${status}`);
                 $('#rsvp_form').hide();
                 $('#send-rsvp').hide();
