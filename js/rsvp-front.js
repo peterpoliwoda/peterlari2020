@@ -24,8 +24,8 @@ $(document).ready(function() {
                 guest_attending: $('input[type=radio][name=guest_attending]:checked').val(),
             };
 
+            var url = 'http://peterpoliwoda.me:4001/rsvp/';
             $.post(url, data, function(data, status) {
-                var url = 'http://peterpoliwoda.me:4001/rsvp/';
                 console.log(`${data} and status is ${status}`);
                 $('#rsvp_form').hide();
                 $('#send-rsvp').hide();
