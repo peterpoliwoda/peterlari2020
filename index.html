@@ -41,18 +41,23 @@
   <!-- Cover -->
   <!-- Intro -->
   <div class="py-5 text-center align-items-center d-flex" style="	background-image: url(assets/wood_bg_big.jpg);	background-size: 100%;	background-position: top left;	background-repeat: repeat;">
-    <div class="container shadow bg-light py-4">
+    <div class="container shadow bg-light py-5 col-xl-6 leaves">
       <div class="row">
         <div class="col-md-8 mx-auto">
-          <img class="img-fluid d-block mx-auto" src="assets/wreath.jpg" style="">
-          <h1 class="mb-4 display-1 text-primary">Save&nbsp;the date</h1>
-          <p class="lead text-primary" contenteditable="true"><b>04 / 04 / 2020</b></p>
+          <h1 class="mb-1 display-1 calligraphic">Lari</h1>
+          <p class="mb-4 calligraphic" style="font-size: 3em; line-height: 0.5em">and</p>
+          <h1 class="mb-1 display-1 calligraphic">Piotr</h1>
+          <p class="thedate">invite you to their wedding</p>
+          <p class="thedate">on</p>
+          <h2 class="thedate text-dark">4 April 2020</h2>
+          <p class="thedate">in</p>
+          <h2 class="calligraphic">São Paulo, Brazil</h2>
+          <p class="thedate">Let us know if you can make it</p>
         </div>
       </div>
       <div class="row">
-        <div class="col-md-12">
-          <p class="">For the wedding of</p>
-          <p class="lead text-dark" contenteditable="true"><b>Piotr Poliwoda and Larissa Alves de Oliveira</b></p><a class="btn navbar-btn mx-2 btn-outline-primary text-primary" href="#rsvp">RSVP</a>
+        <div class="col-md-12 mb-5">
+          <a class="btn navbar-btn mx-2 btn-outline-primary" href="#rsvp">RSVP</a>
         </div>
       </div>
       <div class="row">
@@ -187,23 +192,31 @@
         <div class="mx-auto col-lg-6 col-10">
           <h1 class="text-primary">RSVP</h1>
           <p class="mb-3">Please let us know if you're coming</p>
-          <form class="text-center" action="https://formspree.io/laripeter2020@peterpoliwoda.me" name="rsvp_form" method="POST">
+          <form class="text-center" action="http://localhost:4001/rsvp" name="rsvp_form" id="rsvp_form" method="POST">
             <div class="form-group text-left" style=""> <input type="text" name="guest_name" class="form-control" id="guest_name" placeholder="Your name"> </div>
-            <div class="form-group text-left" style=""> <input name="email" type="guest_email" class="form-control" id="guest_email" placeholder="your@email.com"> </div>
+            <div class="form-group text-left" style=""> <input name="guest_email" type="email" class="form-control" id="guest_email" placeholder="your@email.com"> </div>
+            <div class="form-group text-left" style=""> <input name="guest_numbers" type="number" class="form-control" id="guest_numbers" placeholder="Number of people"> </div>
             <div class="btn-group btn-group-lg" style=""> </div>
-            <div class="form-group text-left" style=""><textarea class="form-control" name="optional-note" id="optional-note" rows="3" placeholder="Leave a note (Optional):"></textarea></div>
+            <div class="form-group text-left" style=""><textarea class="form-control" name="guest_optional_note" id="guest_optional_note" rows="3" placeholder="Leave a note (Optional):"></textarea></div>
             <div class="col-md-12 py-3" style="">
               <h3 class="text-secondary">Will you be attending?</h3>
               <div class="btn-group btn-group-toggle" data-toggle="buttons">
                 <label class="btn btn-outline-primary active shadow-sm">
-                  <input type="radio" name="options" id="guest_attending_yes" autocomplete="off" checked=""> Yes </label>
+                  <input type="radio" name="guest_attending" id="guest_attending_yes" value="YES" checked=""> Yes </label>
                 <label class="btn btn-outline-primary">
-                  <input type="radio" name="options" id="guest_attending_no" autocomplete="off"> No </label>
+                  <input type="radio" name="guest_attending" id="guest_attending_no" value="NO"> No </label>
               </div>
             </div>
           </form>
           <div class="row">
-            <div class="col-md-12 py-3"><button type="submit" class="btn btn-outline-primary shadow-sm">Send</button></div>
+            <div class="col-md-12 py-3"><button type="submit" id="send-rsvp" class="btn btn-outline-primary shadow-sm">Send</button></div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 py-3">
+                <div class="alert alert-danger" role="alert" id="error-message">
+                    Error message here
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -218,7 +231,7 @@
             <li class="nav-item"> <a class="nav-link" href="#">Locations</a> </li>
             <li class="nav-item"> <a class="nav-link" href="#">RSVP</a> </li>
           </ul>
-          <p class="mb-0 py-1 text-light">© 2019-2020 Mr&amp;Mrs Poliwoda. All rights reserved</p>
+          <p class="mb-0 py-1 text-light">© 2019-2020 Peter Poliwoda. All rights reserved</p>
         </div>
       </div>
     </div>
@@ -231,6 +244,7 @@
   <!-- Script: Smooth scrolling between anchors in a same page -->
   <script src="js/smooth-scroll.js" style=""></script>
   <script src="js/countdown.js"></script>
+  <script src="js/rsvp-front.js"></script>
   <script id="dsq-count-scr" src="//lari-and-peter-2020.disqus.com/count.js" async=""></script>
 </body>
 
