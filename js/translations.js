@@ -1,29 +1,53 @@
 $(document).ready(function() {
 
     var t = {
-        "meet-couple": {
-          en: "Meet the couple",
-          pl: "Krótko o nas",
-          pt: "Conheça o casal"
+        'meet-couple': {
+          en: 'Meet the couple',
+          pl: 'Krótko o nas',
+          pt: 'Conheça o casal'
         },
-        "schedule-locations": {
-          en: "Schedule & locations",
-          pl: "Plan & lokalizacje",
-          pt: "Agenda & locais"
+        'schedule-locations': {
+          en: 'Schedule & locations',
+          pl: 'Plan & lokalizacje',
+          pt: 'Agenda & locais'
         },
-        "information": {
-            en: "Useful Information",
-            pl: "Użyteczne Informacje",
-            pt: "Informações"
+        'information': {
+            en: 'Useful Information',
+            pl: 'Użyteczne Informacje',
+            pt: 'Informações'
         },
-        "rsvp": {
-            en: "RSVP",
-            pl: "Potwierdzenie",
-            pt: "Confirmação"
+        'RSVP': {
+            en: 'RSVP',
+            pl: 'Potwierdzenie',
+            pt: 'Confirmação'
         },
-        "Top": {
-            pl: "Do góry",
-            pt: "Para o topo"
+        'Top': {
+            pl: 'Do góry',
+            pt: 'Para o topo'
+        },
+        'and': {
+          pl: 'i',
+          pt: 'e'
+        },
+        'invite you to their wedding': {
+          pl: 'zapraszają na swój ślub',
+          pt: 'convidá-lo para o casamento deles'
+        },
+        'on': {
+          pl: 'dnia',
+          pt: 'dia'
+        },
+        '4 April 2020': {
+          pl: '4 kwietnia 2020',
+          pt: '4 Abril 2020'
+        },
+        'in': {
+          pl: 'w',
+          pt: 'em'
+        },
+        'Let us know if you can make it': {
+          pl: 'Potwierdź swoje przybycie',
+          pt: 'Deixe-nos saber se você pode vir'
         }
       };
 
