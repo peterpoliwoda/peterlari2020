@@ -31,7 +31,7 @@ $(document).ready(function() {
         },
         'invite you to their wedding': {
           pl: 'zapraszają na swój ślub',
-          pt: 'convidá-lo para o casamento deles'
+          pt: 'esperam por você nesse dia tão importante'
         },
         'on': {
           pl: 'dnia',
