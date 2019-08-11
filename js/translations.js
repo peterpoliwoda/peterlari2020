@@ -51,7 +51,7 @@ $(document).ready(function() {
         }
       };
 
-      var browserLocale = (navigator.language).toLowerCase();
+      var browserLocale = (window.navigator && window.navigator.language) ? (window.navigator.language).toLowerCase() : 'en';
       var lang = 'en';
       console.log('Browser is in:', browserLocale);
 
