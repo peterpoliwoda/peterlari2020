@@ -55,9 +55,9 @@ $(document).ready(function() {
       var lang = 'en';
       console.log('Browser is in:', browserLocale);
 
-      if (browserLocale.includes('pl')) {
+      if (browserLocale.indexOf('pl') > -1) {
         lang = 'pl';
-      } else if (browserLocale.includes('pt')) {
+      } else if (browserLocale.indexOf('pt') > -1) {
         lang = 'pt'
       } else {
           lang = 'en';
