@@ -52,7 +52,7 @@ $(document).ready(function() {
         'sao-paulo-location': {
           en: 'São Paulo, Brazil',
           pl: 'São Paulo, Brazil',
-          pt: 'Salto de Pirapora, SP'
+          pt: 'Salto de Pirapora, sp'
         },
         'A little about us': {
           pl: 'Trochę o nas',
@@ -69,11 +69,11 @@ $(document).ready(function() {
         },
         'The beautiful bride': {
           pl: 'Piękna panna młoda',
-          pt: '"Bonitona"'
+          pt: '"Bonitonona"'
         },
         'The handsome groom': {
           pl: 'Przystojny pan młody',
-          pt: '"O Bonitono"'
+          pt: '"Bonitono"'
         },
         'Tell us something nice': {
           pl: 'Napisz nam coś miłego',
