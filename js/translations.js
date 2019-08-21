@@ -84,8 +84,8 @@ $(document).ready(function() {
           pt: 'Contagem regressiva para o grande dia'
         },
         'countdown-desc': {
-          en: 'See us say \'I do\' in:',
-          pl: 'Zobacz jak mówimy \'Tak\' już niedługo, za:',
+          en: 'See us say "I do" in:',
+          pl: 'Zobacz jak mówimy "Tak" już niedługo, za:',
           pt: 'Veja como dizemos "Sim" em breve, para:'
         },
         'Days': {
