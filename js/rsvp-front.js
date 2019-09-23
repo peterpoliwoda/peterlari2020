@@ -4,6 +4,7 @@ $(document).ready(function() {
     function validateForm() {
         if ($('#guest_name').val()
             && $('#guest_email').val()
+            && $('#guest_email').val().indexOf('@') > 1
             && $('#guest_numbers').val()) {
             return true;
         } else {
