@@ -1,7 +1,7 @@
-(function(){
+(function() {
 
     function pad(number) {
-        var number = +number;
+        number = +number;
         if (number < 10) {
             return ('0' + number);
         }
@@ -22,35 +22,27 @@
     // Update the count down every 1 second
     var x = setInterval(function() {
 
-    var now = new Date().getTime();
-    var distance = bigDay - now;
+        var now = new Date().getTime();
+        var distance = bigDay - now;
 
-    // Time calculations for days, hours, minutes and seconds
-    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+        // Time calculations for days, hours, minutes and seconds
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-    // Update view on page
-    updateView(days, hours, minutes, seconds);
+        // Update view on page
+        updateView(days, hours, minutes, seconds);
 
-    // If the count down is finished, write some text 
-    if (distance < 0) {
-        clearInterval(x);
-        document.getElementById('countdown_message').innerHTML = 'The wait is no more! <br> Thank you for being with us on our special day!';
-        updateView(0, 0, 0, 0);
-    }
+        // If the count down is finished, write some text
+        if (distance < 0) {
+            clearInterval(x);
+            document.getElementById('countdown_message').innerHTML = 'The wait is no more! <br/>'
+                + ' Thank you for being with us on our special day!';
+            updateView(0, 0, 0, 0);
+        }
     }, 1000);
 
 
-    
 })();
 
-function validateForm() {
-    var x = document.forms['rsvp_form']['guest_name'].value;
-    if (x == '') {
-        console.log('Form name must be filled out');
-        alert('Name must be filled out');
-        return false;
-    }
-}

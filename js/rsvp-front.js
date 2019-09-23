@@ -12,7 +12,7 @@ $(document).ready(function() {
     }
 
     $('#send-rsvp').click(function() {
-        
+
         $('#error-message').hide();
 
         if (validateForm()) {
@@ -33,7 +33,8 @@ $(document).ready(function() {
                 $('#error-message').html('Message sent. Thank you!');
                 $('#error-message').show();
             }).catch(function() {
-                $('#error-message').html('Something went wrong with sending email. Please try again later or let us know in another way.');
+                $('#error-message').html('Something went wrong with sending email.'
+                    + ' Please try again later or let us know in another way.');
                 $('#error-message').show();
             });
         } else {
