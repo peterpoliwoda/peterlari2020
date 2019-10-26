@@ -5,6 +5,7 @@ $(document).ready(function() {
         if ($('#guest_name').val()
             && $('#guest_email').val()
             && $('#guest_email').val().indexOf('@') > 1
+            && $('#guest_phone').val()
             && $('#guest_numbers').val()) {
             return true;
         } else {
@@ -19,6 +20,7 @@ $(document).ready(function() {
         if (validateForm()) {
             var data = {
                 guest_name: $('#guest_name').val(),
+                guest_phone: $('#guest_phone').val(),
                 guest_email: $('#guest_email').val(),
                 guest_numbers: $('#guest_numbers').val(),
                 guest_optional_note: $('#guest_optional_note').val(),
