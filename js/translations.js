@@ -16,6 +16,11 @@ $(document).ready(function() {
             pl: 'Użyteczne Informacje',
             pt: 'Informações'
         },
+        'gift_list': {
+            en: 'Gift List',
+            pl: 'List Prezentów',
+            pt: 'Lista de Presentes'
+        },
         'RSVP': {
             en: 'RSVP',
             pl: 'Potwierdzenie',
