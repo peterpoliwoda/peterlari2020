@@ -15,9 +15,9 @@
         document.getElementById('countdown_seconds').innerHTML = pad(seconds);
     }
 
-    // Yes I did not take into account the time zone difference.
-    // Don't be such a smartass.
-    var bigDay = new Date('2020-04-04T11:00:00Z').getTime();
+    // Ceremony is at 11:00 in Brazil which should be UTC-3
+    // which I hope is correct with the current DST madness going on
+    var bigDay = new Date('2020-04-04T11:00:00-03:00').getTime();
 
     // Update the count down every 1 second
     var x = setInterval(function() {
