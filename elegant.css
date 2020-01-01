@@ -6496,3 +6496,7 @@ body > * {
   .animate-in-right.out-of-viewport {
     opacity: 0;
     left: 5%; }
+
+.langbtns {
+  cursor: pointer;
+}
