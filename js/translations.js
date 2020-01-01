@@ -139,7 +139,7 @@ $(document).ready(function() {
         },
         'Will you be attending?': {
             pl: 'Potwiedzam przybycie',
-            pt: 'Eu confirmo chegada'
+            pt: 'Você está vindo?'
         },
         'Send': {
             pl: 'Wyślij',
@@ -157,7 +157,8 @@ $(document).ready(function() {
             pl: 'Twoje imię',
             pt: 'Seu nome'
         },
-        'your@email.com': {
+        'your-email': {
+            en: 'your@email.com',
             pl: 'twoj@email.pl',
             pt: 'seu@email.com.br'
         },
@@ -165,7 +166,8 @@ $(document).ready(function() {
             pl: 'Liczba gości',
             pt: 'Número de convidados'
         },
-        'Leave a note (Optional):': {
+        'leave-a-note': {
+            en: 'Leave a note (Optional)',
             pl: 'Dodatkowa wiadomość (Opcjonalnie)',
             pt: 'Mensagem adicional (opcional)'
         },
@@ -194,11 +196,11 @@ $(document).ready(function() {
     };
 
     var browserLocale = (window.navigator && window.navigator.language)
-        ? (window.navigator.language).toLowerCase() : 'en';
+        ? (window.navigator.language).toLowerCase() : 'pt';
     var lang = 'en';
     console.log('Browser is in:', browserLocale);
 
-    if (browserLocale.indexOf('pl') > -1) {
+    if (browserLocale.indexOf('pl') > -1 || browserLocale.indexOf('de') > -1) {
         lang = 'pl';
     } else if (browserLocale.indexOf('pt') > -1) {
         lang = 'pt';
@@ -206,5 +208,10 @@ $(document).ready(function() {
         lang = 'en';
     }
 
-    $('body').translate({lang: lang, t: t});
+    var translator = $('body').translate({lang: lang, t: t});
+
+    $('.langbtns').click(function(e) {
+        var clickedLang = e && e.target && e.target.text ? e.target.text.toLowerCase() : 'en';
+        translator.lang(clickedLang);
+    });
 });
