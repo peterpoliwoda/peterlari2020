@@ -135,7 +135,7 @@ $(document).ready(function() {
         'let-us-know': {
             en: 'Please let us know if you\'re coming',
             pl: 'Daj nam znać czy będziesz',
-            pt: 'Por favor, deixe-nos saber se você está vindo'
+            pt: 'Por favor, deixe-nos saber se você pode comparecer'
         },
         'Will you be attending?': {
             pl: 'Potwiedzam przybycie',
