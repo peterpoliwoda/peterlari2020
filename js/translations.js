@@ -139,7 +139,7 @@ $(document).ready(function() {
         },
         'Will you be attending?': {
             pl: 'Potwiedzam przybycie',
-            pt: 'Você está vindo?'
+            pt: 'Você vai?'
         },
         'Send': {
             pl: 'Wyślij',
@@ -182,6 +182,11 @@ $(document).ready(function() {
         'Phone': {
             pl: 'Tel',
             pt: 'Tel'
+        },
+        'Phone number': {
+            pl: 'Telefon kontaktowy',
+            pt: 'Telefone de contato',
+            en: 'Phone number'
         },
         'fazenda-opening-hours': {
             pl: 'Recepcja czynna: <br/> Poniedziałek-Piątek 9:00-17:00',

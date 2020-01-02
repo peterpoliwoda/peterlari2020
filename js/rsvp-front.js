@@ -36,12 +36,16 @@ $(document).ready(function() {
                 $('#error-message').html('Message sent. Thank you!');
                 $('#error-message').show();
             }).catch(function() {
-                $('#error-message').html('Something went wrong with sending email.'
+                $('#error-message').html('Ocorreu um erro ao enviar email. '
+                    + 'Tente novamente mais tarde ou informe-nos de outra maneira.\n' +
+                    + 'Something went wrong with sending email.'
                     + ' Please try again later or let us know in another way.');
                 $('#error-message').show();
             });
         } else {
-            $('#error-message').html('Please fill all required details.');
+            $('#error-message')
+                .html('Por favor, preencha todos os detalhes necessários. \n'
+                    + 'Please fill all required details.');
             $('#error-message').show();
         }
     });
