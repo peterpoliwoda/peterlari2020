@@ -100,6 +100,10 @@ $(document).ready(function() {
             pl: 'Dni',
             pt: 'Dias'
         },
+        'nights': {
+            pl: 'noce',
+            pt: 'noites'
+        },
         'Hours': {
             pl: 'Godzin',
             pt: 'Horas'
@@ -196,7 +200,116 @@ $(document).ready(function() {
         'fazenda-prices-in': {
             pl: 'Ceny w Brazylijskich Realach (1 zł ~ 1.04 R$)',
             en: 'Prices in Brazilian Reais (€1 ~ 4.41 R$)',
-            pt: ''
+            pt: ' '
+        },
+        'additional_hotels_tbc': {
+            pl: 'Hotele w mieście Sorocaba (do potwierdzenia lub we własnym zakresie).',
+            pt: 'Outros hoteis em Sorocaba (a comfirmar).',
+            en: 'Hotels in the City of Sorocaba to be confirmed.'
+        },
+        'Single': {
+            pl: 'jednoosobowy',
+            pt: 'uma pesoa'
+        },
+        'Double': {
+            pl: 'dwuosobowy',
+            pt: 'duas pesoas'
+        },
+        'Child': {
+            pl: 'Dziecko',
+            pt: 'Criança'
+        },
+        'Children': {
+            pl: 'Dzieci',
+            pt: 'Crianças'
+        },
+        'Free': {
+            pl: 'Gratis',
+            pt: 'Não pagam'
+        },
+        'for two days': {
+            pl: 'za dwa dni',
+            pt: 'para dois dias'
+        },
+        'for two nights': {
+            pt: 'para duas noites',
+            pl: 'za dwie noce'
+        },
+        'per room': {
+            pl: 'za pokój',
+            pt: 'para quarto'
+        },
+        'Additional children': {
+            pl: 'Dodatkowe dzieci',
+            pt: 'Criaças adicionais'
+        },
+        'adult': {
+            pl: 'osoba dorosła',
+            pt: 'adulto'
+        },
+        'adults': {
+            pl: 'osoby dorosłe',
+            pt: 'adultos'
+        },
+        'Additional adults': {
+            pl: 'Dodatkowi dorośli',
+            pt: 'Adultos adicionais'
+        },
+        'from': {
+            pl: 'od',
+            pt: 'de'
+        },
+        'to': {
+            pl: 'do',
+            pt: 'a'
+        },
+        'rooms_available_for_wedding': {
+            en: 'Rooms available for the wedding weekend',
+            pt: 'Quartos disponiveis para final do semana do casamento',
+            pl: 'Zakwaterowanie dostępne w ślubny weekend'
+        },
+        'Fri-Sun': {
+            pl: 'Piątek - Niedziela',
+            pt: 'Sexta-Feira - Domingo'
+        },
+        'Friday': {
+            pl: 'Piątek',
+            pt: 'Sexta-Feira'
+        },
+        'Sunday': {
+            pl: 'Niedziela',
+            pt: 'Domingo'
+        },
+        'years old': {
+            pl: 'lat',
+            pt: 'anos'
+        },
+        'years': {
+            pl: 'lat',
+            pt: 'anos'
+        },
+        'To be confirmed': {
+            pl: '(Do potwierdzenia)',
+            pt: '(a comfirmar)'
+        },
+        'uber_info': {
+            en: 'A good cheap transport option',
+            pl: 'Dobra tania opcja. Uber w Brazylii działa dobrze i jest popularny.',
+            pt: 'Uma boa opção barata',
+        },
+        'taxi_info': {
+            en: 'If taking a taxi from Sorocaba to the Church / Fazenda should be OK.',
+            pl: 'Taksówka z Sorocaby do kościoła albo Fazendy Pitangueiras powinna być OK.',
+            pt: 'Se pegar um táxi de Sorocaba para a Igreja ou Fazenda deve estar OK.'
+        },
+        'airport_transfer_info': {
+            en: 'We are considering organising a bus ride from GRU airport to the Fazenda. '
+                + 'Please state if you would like to be a part of it in the Optional Note.',
+            pl: 'Myślimy o zorganizowaniu mikrobusa z lotniska do Fazendy. Prosimy o potwierdzenie '
+                + 'czasu lotów z nami lub w wysłanym dokumencie Google Sheets oraz o wyrażenie '
+                + 'chęci transferu w *Dodatkowej notatce* w formularzu potwierdzającym.',
+            pt: 'Estamos pensando em organizar uma viagem de ônibus do aeroporto GRU para a Fazenda. '
+                + 'Por favor, indique se você gostaria de fazer parte dele na *Nota Opcional*.'
         }
     };
 
