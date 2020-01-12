@@ -341,8 +341,8 @@ $(document).ready(function() {
             'duas pesoas (2 adultos) R$ 500 para duas noites. <br>' +
             'Crianças de 0 a 5 anos - Não pagam. <br>' +
             '1 Criança 6-12 anos no mesmo quarto - Não pagam. <br>' +
-            'Criaças adicionais 6-12 anos no mesmo quarto R$ 100 para dois dias. <br>' +
-            'Adultos adicionais no mesmo quarto R$ 200 para dois dias. <br>',
+            'Criaças adicionais 6-12 anos no mesmo quarto R$ 100 por dois dias. <br>' +
+            'Adultos adicionais no mesmo quarto R$ 200 por dois dias. <br>',
         }
     };
 
