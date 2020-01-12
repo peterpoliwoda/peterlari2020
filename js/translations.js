@@ -204,7 +204,7 @@ $(document).ready(function() {
         },
         'additional_hotels_tbc': {
             pl: 'Hotele w mieście Sorocaba (do potwierdzenia lub we własnym zakresie).',
-            pt: 'Outros hoteis em Sorocaba ou Salto de Pirapora (a comfirmar).',
+            pt: 'Outros hoteis em Sorocaba ou Salto de Pirapora (a confirmar).',
             en: 'Hotels in the City of Sorocaba to be confirmed.'
         },
         'Single': {
