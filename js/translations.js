@@ -68,8 +68,8 @@ $(document).ready(function() {
             + 'Our story starts in Ireland. We met on a sunny summer day back in 2014.',
             pl: 'Spotkaliśmy się na pięknej zielonej wyspie na północ od kontynentu europejskiego.'
             + ' Nasza historia zaczęła się w Irlandii. Spotkaliśmy się w słoneczny letni dzień w 2014 roku.',
-            pt: 'Nós nos encontramos em uma bela ilha verde ao norte do continente europeu. '
-            + ' Nossa história começa na Irlanda. Nós nos conhecemos em um dia ensolarado de verão em 2014.',
+            pt: 'Nós nos conhecemos em uma bela ilha verde ao norte do continente europeu. '
+            + ' Nossa história começa na Irlanda, em um lindo dia ensolarado de verão em 2014 (talvez o único verão que esse país já teve rsrs) ',
         },
         'Our favourite moments': {
             pl: 'Nasze ulubione chwile',
@@ -93,8 +93,8 @@ $(document).ready(function() {
         },
         'countdown-desc': {
             en: 'See us say "I do" in:',
-            pl: 'Zobacz jak mówimy "Tak" już niedługo, za:',
-            pt: 'Veja como dizemos "Sim" em breve, para:'
+            pl: 'Zobacz jak mówimy "Tak" za:',
+            pt: 'Veja o nosso "Sim" em...'
         },
         'Days': {
             pl: 'Dni',
@@ -118,7 +118,7 @@ $(document).ready(function() {
         },
         'Main Ceremony': {
             pl: 'Uroczystość kościelna',
-            pt: 'Cerimônia da igreja'
+            pt: 'Cerimônia religiosa'
         },
         'Wedding Party': {
             pl: 'Przyjęcie weselne',
@@ -130,7 +130,7 @@ $(document).ready(function() {
         },
         'Accommodation': {
             pl: 'Zakwaterowanie',
-            pt: 'Accommodaçao'
+            pt: 'Acomodaçao'
         },
         'Public transport': {
             pl: 'Transport publiczny',
@@ -139,7 +139,7 @@ $(document).ready(function() {
         'let-us-know': {
             en: 'Please let us know if you\'re coming',
             pl: 'Daj nam znać czy będziesz',
-            pt: 'Por favor, deixe-nos saber se você pode comparecer'
+            pt: 'Por favor, deixe-nos saber se você vai comparecer'
         },
         'Will you be attending?': {
             pl: 'Potwiedzam przybycie',
@@ -155,7 +155,7 @@ $(document).ready(function() {
         },
         'No': {
             pl: 'Nie',
-            pt: 'No'
+            pt: 'Não'
         },
         'Your name': {
             pl: 'Twoje imię',
@@ -195,7 +195,7 @@ $(document).ready(function() {
         'fazenda-opening-hours': {
             pl: 'Recepcja czynna: <br/> Poniedziałek-Piątek 9:00-17:00',
             en: 'Contact hours: Mon-Fri 9:00AM - 5:00PM',
-            pt: 'Atendimento de segunda a sexta-feira, das 09h as 17h.'
+            pt: 'Atendimento de segunda a sexta-feira, das 09h às 17h.'
         },
         'fazenda-prices-in': {
             pl: 'Ceny w Brazylijskich Realach (1 zł ~ 1.04 R$)',
@@ -204,7 +204,7 @@ $(document).ready(function() {
         },
         'additional_hotels_tbc': {
             pl: 'Hotele w mieście Sorocaba (do potwierdzenia lub we własnym zakresie).',
-            pt: 'Outros hoteis em Sorocaba (a comfirmar).',
+            pt: 'Outros hoteis em Sorocaba ou Salto de Pirapora (a comfirmar).',
             en: 'Hotels in the City of Sorocaba to be confirmed.'
         },
         'Single': {
@@ -213,7 +213,7 @@ $(document).ready(function() {
         },
         'Double': {
             pl: 'dwuosobowy',
-            pt: 'duas pesoas'
+            pt: 'duas pessoas'
         },
         'Child': {
             pl: 'Dziecko',
@@ -237,7 +237,7 @@ $(document).ready(function() {
         },
         'per room': {
             pl: 'za pokój',
-            pt: 'para quarto'
+            pt: 'por quarto'
         },
         'Additional children': {
             pl: 'Dodatkowe dzieci',
@@ -265,7 +265,7 @@ $(document).ready(function() {
         },
         'rooms_available_for_wedding': {
             en: 'Rooms available for the wedding weekend',
-            pt: 'Quartos disponiveis no final de semana do casamento',
+            pt: 'Quartos disponíveis no final de semana do casamento',
             pl: 'Zakwaterowanie dostępne w ślubny weekend'
         },
         'Fri-Sun': {
@@ -310,6 +310,39 @@ $(document).ready(function() {
                 + 'chęci transferu w *Dodatkowej notatce* w formularzu potwierdzającym.',
             pt: 'Estamos pensando em organizar uma viagem de ônibus do aeroporto GRU para a Fazenda. '
                 + 'Por favor, indique se você gostaria de fazer parte dele na *Nota Opcional*.'
+        },
+        'hotel_room_info': {
+            en: 'Check-in: 16:00 Friday. <br>' +
+            'Check-out: 12:00 Sunday. <br>' +
+            '<br>' +
+            'Single (1 adult) R$ 500 for two nights. <br>' +
+            'Double (2 adults) R$ 500 for two nights. <br>' +
+            'Children from 0 to 5 years old - Free. <br>' +
+            '1 Child 6-12 years per room - Free. <br>' +
+            'Additional children 6-12 years per room R$ 100 for two days. <br>' +
+            'Additional adults per room R$ 200 for two days.<br>' +
+            '<br>' +
+            'Prices in Brazilian Reais (€1 = 4.41 R$) <br>',
+            pl: 'Check-in: 16:00 Piątek. <br>' +
+            'Check-out: 12:00 Niedziela. <br>' +
+            '<br>' +
+            'jednoosobowy (1 osoba dorosła) R$ 500 za dwie noce. <br>' +
+            'dwuosobowy (2 osoby dorosłe) R$ 500 za dwie noce. <br>' +
+            'Dzieci od 0 do 5 lat - Gratis. <br>' +
+            '1 Dziecko 6-12 lat za pokój - Gratis. <br>' +
+            'Dodatkowe dzieci 6-12 lat za pokój R$ 100 za dwa dni. <br>' +
+            'Dodatkowi dorośli za pokój R$ 200 za dwa dni. <br>' +
+            '<br>' +
+            'Ceny w Brazylijskich Realach (1 zł ~ 1.04 R$) <br>',
+            pt: 'Check-in: 16:00 sexta-feira. <br>' +
+            'Check-out: 12:00 domingo. <br>' +
+            '<br>' +
+            'uma pesoa (1 adulto) R$ 500 para duas noites. <br>' +
+            'duas pesoas (2 adultos) R$ 500 para duas noites. <br>' +
+            'Crianças de 0 a 5 anos - Não pagam. <br>' +
+            '1 Criança 6-12 anos no mesmo quarto - Não pagam. <br>' +
+            'Criaças adicionais 6-12 anos no mesmo quarto R$ 100 para dois dias. <br>' +
+            'Adultos adicionais no mesmo quarto R$ 200 para dois dias. <br>',
         }
     };
 
