@@ -265,7 +265,7 @@ $(document).ready(function() {
         },
         'rooms_available_for_wedding': {
             en: 'Rooms available for the wedding weekend',
-            pt: 'Quartos disponiveis para final do semana do casamento',
+            pt: 'Quartos disponiveis no final de semana do casamento',
             pl: 'Zakwaterowanie dostępne w ślubny weekend'
         },
         'Fri-Sun': {
@@ -295,12 +295,12 @@ $(document).ready(function() {
         'uber_info': {
             en: 'A good cheap transport option',
             pl: 'Dobra tania opcja. Uber w Brazylii działa dobrze i jest popularny.',
-            pt: 'Uma boa opção barata',
+            pt: 'Uma boa opção! (barato)',
         },
         'taxi_info': {
             en: 'If taking a taxi from Sorocaba to the Church / Fazenda should be OK.',
             pl: 'Taksówka z Sorocaby do kościoła albo Fazendy Pitangueiras powinna być OK.',
-            pt: 'Se pegar um táxi de Sorocaba para a Igreja ou Fazenda deve estar OK.'
+            pt: 'Táxi de Sorocaba/Pilar do Sul para a Igreja em Salto de Pirapora ou para a Fazenda Pitangueiras.'
         },
         'airport_transfer_info': {
             en: 'We are considering organising a bus ride from GRU airport to the Fazenda. '
