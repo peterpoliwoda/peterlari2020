@@ -334,7 +334,8 @@ $(document).ready(function() {
             'Dodatkowi dorośli za pokój R$ 200 za dwa dni. <br>' +
             '<br>' +
             'Ceny w Brazylijskich Realach (1 zł ~ 1.04 R$) <br>',
-            pt: 'Check-in: 16:00 sexta-feira. <br>' +
+            pt: 'Se você quiser ficar hospedado conosco na fazenda, durante o fim de semana, eles tem as seguintes opções: <br>' +
+'Check-in: 16:00 sexta-feira. <br>' +
             'Check-out: 12:00 domingo. <br>' +
             '<br>' +
             'uma pesoa (1 adulto) R$ 500 para duas noites. <br>' +
