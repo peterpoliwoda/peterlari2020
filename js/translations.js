@@ -311,6 +311,11 @@ $(document).ready(function() {
             pt: 'Estamos pensando em organizar uma viagem de ônibus do aeroporto GRU para a Fazenda. '
                 + 'Por favor, indique se você gostaria de fazer parte dele na *Nota Opcional*.'
         },
+        'optional_accommodation': {
+           en: 'If you would like there is a possibility of staying at the Fazenda for the duration of the wedding weekend.',
+           pl: ' ',
+           pt: 'Se você quiser ficar hospedado conosco na fazenda, durante o fim de semana, eles tem as seguintes opções: <br>'
+        },
         'hotel_room_info': {
             en: 'Check-in: 16:00 Friday. <br>' +
             'Check-out: 12:00 Sunday. <br>' +
@@ -334,8 +339,7 @@ $(document).ready(function() {
             'Dodatkowi dorośli za pokój R$ 200 za dwa dni. <br>' +
             '<br>' +
             'Ceny w Brazylijskich Realach (1 zł ~ 1.04 R$) <br>',
-            pt: 'Se você quiser ficar hospedado conosco na fazenda, durante o fim de semana, eles tem as seguintes opções: <br>' +
-'Check-in: 16:00 sexta-feira. <br>' +
+            pt: 'Check-in: 16:00 sexta-feira. <br>' +
             'Check-out: 12:00 domingo. <br>' +
             '<br>' +
             'uma pesoa (1 adulto) R$ 500 para duas noites. <br>' +
