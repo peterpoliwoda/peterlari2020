@@ -130,7 +130,7 @@ $(document).ready(function() {
         },
         'Accommodation': {
             pl: 'Zakwaterowanie',
-            pt: 'Acomodaçao'
+            pt: 'Acomodação'
         },
         'Public transport': {
             pl: 'Transport publiczny',
@@ -314,7 +314,7 @@ $(document).ready(function() {
         'optional_accommodation': {
            en: 'If you would like there is a possibility of staying at the Fazenda for the duration of the wedding weekend.',
            pl: ' ',
-           pt: 'Se você quiser ficar hospedado conosco na fazenda, durante o fim de semana, eles tem as seguintes opções: <br>'
+           pt: 'Se você quiser ficar hospedado conosco na fazenda durante o fim de semana, eles tem as seguintes opções: <br>'
         },
         'hotel_room_info': {
             en: 'Check-in: 16:00 Friday. <br>' +
