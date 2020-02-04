@@ -203,9 +203,9 @@ $(document).ready(function() {
             pt: ' '
         },
         'additional_hotels_tbc': {
-            pl: 'Hotele w mieście Sorocaba we własnym zakresie. <br/> Proponowana opcja: dzielnica Campolim w Sorocabie. <br/> Polecane np: <br/> - Hotel ibis',
-            pt: 'Outros hoteis em Sorocaba ou Salto de Pirapora (a confirmar). Melhor opção: Sorocaba Campolim.',
-            en: 'Hotels in the City of Sorocaba if choosing on your own <br/> Best option: Campolim area in Sorocaba.<br/> Recommended for example: <br/> - Hotel ibis'
+            pl: 'Hotele w mieście Sorocaba we własnym zakresie. <br/> Najlepsza opcja: <strong>okolice dzielnicy Campolim</strong> w Sorocabie. <br/> Polecane hotele np: <br/> - Hotel ibis',
+            pt: 'Outros hoteis em Sorocaba ou Salto de Pirapora (a confirmar). Melhor opção: <strong>Sorocaba Campolim<strong>.',
+            en: 'Hotels in the City of Sorocaba if choosing on your own <br/> Best option: <strong>Campolim Area</strong> in Sorocaba.<br/> Recommended for example: <br/> - Hotel ibis'
         },
         'Single': {
             pl: 'jednoosobowy',
