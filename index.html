@@ -322,8 +322,7 @@
       <div class="row bg-light py-4 shadow" id="rsvp">
         <div class="mx-auto col-lg-6 col-10">
           <h1 class="text-primary trn">RSVP</h1>
-          <p class="trn" data-trn-key="let-us-know">Please let us know if you're coming</p>
-          <p class="mb-3" id="rsvps-confirmed"></p>
+          <p class="mb-3 trn" data-trn-key="let-us-know">Please let us know if you're coming</p>
           <form class="text-center" action="" name="rsvp_form" id="rsvp_form" method="POST">
             <div class="form-group text-left"> <input type="text" name="guest_name" class="form-control trn" id="guest_name" placeholder="Your name"> </div>
             <div class="form-group text-left"> <input name="guest_phone" type="tel" class="form-control trn" id="guest_phone" placeholder="Phone number"> </div>
@@ -347,8 +346,12 @@
           <div class="row">
             <div class="col-md-12 py-3">
               <div class="alert alert-danger" role="alert" id="error-message">
-                  Error message here
+                Error message here
               </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col" id="rsvps-confirmed">
             </div>
           </div>
         </div>
