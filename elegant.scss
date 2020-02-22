@@ -4,7 +4,7 @@
 * Copyright 2014-2018 Pingendo (https://pingendo.com)
 */
 
-@import url('https://fonts.googleapis.com/css?family=Montserrat:200'); 
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200');
 @import url('https://fonts.googleapis.com/css?family=Cormorant Garamond:300,600');
 @import url('https://fonts.googleapis.com/css?family=Allura');
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script');
@@ -54,7 +54,7 @@ $theme-colors: (
 // Options
 //
 // Quickly modify global styling by enabling or disabling optional features.
- 
+
 $enable-rounded:            true !default;
 $enable-shadows:            false;
 $enable-gradients:          false;
@@ -202,7 +202,7 @@ body > * {
 }
 
 .bg-dark-opaque {
-  background: rgba(map-get($theme-colors, 'primary'), 0.60);  
+  background: rgba(map-get($theme-colors, 'primary'), 0.60);
   .btn {
   border-color: rgba(map-get($theme-colors, 'light'), 1);
   color: white;
@@ -227,11 +227,11 @@ body > * {
 		background: rgba(map-get($theme-colors, 'dark'), 0.75);
     color: $body-color;
 	}
-  
+
 	.carousel-control-next, .carousel-control-prev {
     opacity:0.85;
   }
-  
+
   .carousel-indicators {
     bottom: 0px;
   }
@@ -241,7 +241,7 @@ body > * {
 }
 
 .cover {
- min-height:100%; 
+ min-height:100%;
 }
 
 /* Animate state between .navbar and .navbar-ontop */
@@ -250,7 +250,7 @@ body > * {
 }
 
 .navbar-ontop {
-  background-color: transparent !important;
+  background-color: white !important;
 }
 
 /* Animate on entrance */
