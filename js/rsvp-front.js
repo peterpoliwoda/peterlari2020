@@ -1,6 +1,14 @@
 $(document).ready(function() {
     $('#error-message').hide();
 
+    var url = 'https://peterpoliwoda.me:4001/';
+    $.get(url + 'number-of-guests', function(data, status) {
+        console.log(`${data} and status is ${status}`);
+        $('#rsvps-confirmed').html(data);
+    }).catch(function() {
+        console.error();
+    });
+
     function validateForm() {
         if ($('#guest_name').val()
             && $('#guest_email').val()
@@ -27,8 +35,7 @@ $(document).ready(function() {
                 guest_attending: $('input[type=radio][name=guest_attending]:checked').val(),
             };
 
-            var url = 'https://peterpoliwoda.me:4001/rsvp/';
-            $.post(url, data, function(data, status) {
+            $.post(url + 'rsvp/', data, function(data, status) {
                 console.log(`${data} and status is ${status}`);
                 $('#rsvp_form').hide();
                 $('#send-rsvp').hide();
