@@ -56,7 +56,7 @@
 
 
         // main
-        this.find(settings.css).each(function(i) {
+        this.find(settings.css).each(function() {
             var $this = $(this);
 
             var trn_key = $this.attr('data-trn-key');

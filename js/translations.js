@@ -69,7 +69,8 @@ $(document).ready(function() {
             pl: 'Spotkaliśmy się na pięknej zielonej wyspie na północ od kontynentu europejskiego.'
             + ' Nasza historia zaczęła się w Irlandii. Spotkaliśmy się w słoneczny letni dzień w 2014 roku.',
             pt: 'Nós nos conhecemos em uma bela ilha verde ao norte do continente europeu. '
-            + ' Nossa história começa na Irlanda, em um lindo dia ensolarado de verão em 2014 (talvez o único verão que esse país já teve rsrs) ',
+            + ' Nossa história começa na Irlanda, em um lindo dia ensolarado de verão em 2014 '
+            + '(talvez o único verão que esse país já teve rsrs) ',
         },
         'Our favourite moments': {
             pl: 'Nasze ulubione chwile',
@@ -203,9 +204,14 @@ $(document).ready(function() {
             pt: ' '
         },
         'additional_hotels_tbc': {
-            pl: 'Hotele w mieście Sorocaba we własnym zakresie. <br/> Najlepsza opcja: <strong>okolice dzielnicy Campolim</strong> w Sorocabie. <br/> Polecane hotele np: <br/> - Hotel ibis',
-            pt: 'Outros hoteis em Sorocaba ou Salto de Pirapora (a confirmar). Melhor opção: <strong>Sorocaba Campolim<strong>.',
-            en: 'Hotels in the City of Sorocaba if choosing on your own <br/> Best option: <strong>Campolim Area</strong> in Sorocaba.<br/> Recommended for example: <br/> - Hotel ibis'
+            pl: 'Hotele w mieście Sorocaba we własnym zakresie. <br/> '
+            + 'Najlepsza opcja: <strong>okolice dzielnicy Campolim</strong> w Sorocabie. <br/> '
+            + 'Polecane hotele np: <br/> - Hotel ibis',
+            pt: 'Outros hoteis em Sorocaba ou Salto de Pirapora (a confirmar).'
+            + 'Melhor opção: <strong>Sorocaba Campolim<strong>.',
+            en: 'Hotels in the City of Sorocaba if choosing on your own <br/> '
+            + 'Best option: <strong>Campolim Area</strong> in Sorocaba.<br/> '
+            + 'Recommended for example: <br/> - Hotel ibis'
         },
         'Single': {
             pl: 'jednoosobowy',
@@ -312,9 +318,11 @@ $(document).ready(function() {
                 + 'Por favor, indique se você gostaria de fazer parte dele na *Nota Opcional*.'
         },
         'optional_accommodation': {
-           en: 'If you would like there is a possibility of staying at the Fazenda for the duration of the wedding weekend.',
-           pl: ' ',
-           pt: 'Se você quiser ficar hospedado conosco na fazenda durante o fim de semana, eles tem as seguintes opções: <br>'
+            en: 'If you would like there is a possibility of staying at the Fazenda'
+            + ' for the duration of the wedding weekend.',
+            pl: ' ',
+            pt: 'Se você quiser ficar hospedado conosco na fazenda durante o fim de semana,'
+            + ' eles tem as seguintes opções: <br>'
         },
         'hotel_room_info': {
             en: 'Check-in: 16:00 Friday. <br>' +
