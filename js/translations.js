@@ -328,17 +328,29 @@ $(document).ready(function() {
             en: 'Check-in: 16:00 Friday. <br>' +
             'Check-out: 12:00 Sunday. <br>' +
             '<br>' +
+            'OPTION 1<br>' +
+            'Single (1 adult) R$ 320 for one night. <br>' +
+            'Double (2 adults) R$ 320 for one night. <br>' +
+            '<br>' +
+            'OPTION 2<br>' +
             'Single (1 adult) R$ 500 for two nights. <br>' +
             'Double (2 adults) R$ 500 for two nights. <br>' +
             'Children from 0 to 5 years old - Free. <br>' +
             '1 Child 6-12 years per room - Free. <br>' +
             'Additional children 6-12 years per room R$ 100 for two days. <br>' +
-            'Additional adults per room R$ 200 for two days.<br>' +
+            'Additional adults per room R$ 100 per night (R$ 200 Fri-Sun).<br>' +
             '<br>' +
-            'Prices in Brazilian Reais (€1 = 4.41 R$) <br>',
+            'Breakfast on Saturday and Sunday included.<br>' +
+            '<br>' +
+            'Prices in Brazilian Reais (€1 = 4.81 R$) <br>',
             pl: 'Check-in: 16:00 Piątek. <br>' +
             'Check-out: 12:00 Niedziela. <br>' +
             '<br>' +
+            'OPCJA 1<br>' +
+            'jednoosobowy (1 osoba dorosła) R$ 320 za jedną noc. <br>' +
+            'dwuosobowy (2 osoby dorosłe) R$ 320 za dwie noc. <br>' +
+            '<br>' +
+            'OPCJA 2<br>' +
             'jednoosobowy (1 osoba dorosła) R$ 500 za dwie noce. <br>' +
             'dwuosobowy (2 osoby dorosłe) R$ 500 za dwie noce. <br>' +
             'Dzieci od 0 do 5 lat - Gratis. <br>' +
@@ -346,10 +358,17 @@ $(document).ready(function() {
             'Dodatkowe dzieci 6-12 lat za pokój R$ 100 za dwa dni. <br>' +
             'Dodatkowi dorośli za pokój R$ 200 za dwa dni. <br>' +
             '<br>' +
+            'Śniadanie w sobotę i niedzielę wliczone w cenę.<br>' +
+            '<br>' +
             'Ceny w Brazylijskich Realach (1 zł ~ 1.04 R$) <br>',
             pt: 'Check-in: 16:00 sexta-feira. <br>' +
             'Check-out: 12:00 domingo. <br>' +
             '<br>' +
+            'OPÇÃO 1<br>' +
+            'uma pesoa (1 adulto) R$ 320 para uma noite. <br>' +
+            'duas pesoas (2 adultos) R$ 320 para uma noite. <br>' +
+            '<br>' +
+            'OPÇÃO 2<br>' +
             'uma pesoa (1 adulto) R$ 500 para duas noites. <br>' +
             'duas pesoas (2 adultos) R$ 500 para duas noites. <br>' +
             'Crianças de 0 a 5 anos - Não pagam. <br>' +
