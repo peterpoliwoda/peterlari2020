@@ -3057,6 +3057,10 @@ input[type="button"].btn-block {
   .navbar-expand .navbar-toggler {
     display: none; }
 
+.navbar-light {
+  box-shadow: 2px 2px 3px rgba(99, 99, 99, 0.2);
+}
+
 .navbar-light .navbar-brand {
   color: rgba(0, 0, 0, 0.9); }
   .navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
@@ -6467,7 +6471,8 @@ body > * {
   transition: background-color .5s ease-out; }
 
 .navbar-ontop {
-  background-color: transparent !important; }
+  background-color: #ffffff !important;
+}
 
 /* Animate on entrance */
 .animate-in-down {

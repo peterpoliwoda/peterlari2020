@@ -18,7 +18,7 @@ $(document).ready(function() {
         },
         'gift_list': {
             en: 'Gift List',
-            pl: 'List Prezentów',
+            pl: 'Lista Prezentów',
             pt: 'Lista de Presentes'
         },
         'RSVP': {
