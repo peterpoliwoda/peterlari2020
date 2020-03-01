@@ -317,6 +317,15 @@ $(document).ready(function() {
             pt: 'Estamos pensando em organizar uma viagem de ônibus do aeroporto GRU para a Fazenda. '
                 + 'Por favor, indique se você gostaria de fazer parte dele na *Nota Opcional*.'
         },
+        'What\'s cooking on social media': {
+            pl: 'Zasłyszane w mediach społecznościowych',
+            pt: 'O que está acontecendo nas mídias sociais'
+        },
+        'post_pics_hashtag': {
+            en: 'Post your pictures of us on our instagram hashtag: <br/>#laripeter2020',
+            pl: 'Wrzuć swoje fotki na nasz feed na instagramie używając hashtaga: <br/>#laripeter2020',
+            pt: 'Compartilhe conosco as suas fotos no Instagram! <br/>Use #laripeter2020',
+        },
         'optional_accommodation': {
             en: 'If you would like there is a possibility of staying at the Fazenda'
             + ' for the duration of the wedding weekend.',
