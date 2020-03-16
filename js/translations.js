@@ -46,6 +46,14 @@ $(document).ready(function() {
             pl: '4 kwietnia 2020',
             pt: '4 Abril 2020'
         },
+        'POSTPONED': {
+            pl: 'PRZESUNIĘTO',
+            pt: 'ADIAR'
+        },
+        'RSVP closed until further notice': {
+            pl: 'Formularz potwierdzeń wyłączony do odwołania.',
+            pt: 'RSVP fechado até novo aviso.',
+        },
         'in': {
             pl: 'w',
             pt: 'em'
