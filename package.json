@@ -8,15 +8,14 @@
     "body-parser": "^1.18.3",
     "csv-writer": "^1.5.0",
     "dotenv": "^7.0.0",
-    "express": "^4.16.4",
-    "googleapis": "^27.0.0"
+    "express": "^4.16.4"
   },
   "devDependencies": {
-    "eslint": "^6.4.0"
+    "eslint": "^6.8.0"
   },
   "scripts": {
     "test": "eslint ."
   },
   "author": "Peter Poliwoda <contact@peterpoliwoda.me> (https://peterpoliwoda.me)",
-  "license": "ISC"
+  "license": "MIT"
 }
