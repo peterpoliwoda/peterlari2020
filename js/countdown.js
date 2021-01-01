@@ -17,7 +17,7 @@
 
     // Ceremony is at 11:00 in Brazil which should be UTC-3
     // which I hope is correct with the current DST madness going on
-    var bigDay = new Date('2020-04-04T11:00:00-03:00').getTime();
+    var bigDay = new Date('2021-04-17T15:00:00-03:00').getTime();
 
     // Update the count down every 1 second
     var x = setInterval(function() {
