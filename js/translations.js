@@ -34,17 +34,17 @@ $(document).ready(function() {
             pl: 'i',
             pt: 'e'
         },
-        'invite you to their wedding': {
-            pl: 'zapraszają na swój ślub',
+        'will unfortunately not invite you to their wedding': {
+            pl: 'odwołują swoje wesele',
             pt: 'esperam por você nesse dia tão importante'
         },
         'on': {
             pl: 'dnia',
             pt: 'dia'
         },
-        '4 April 2020': {
-            pl: '4 kwietnia 2020',
-            pt: '4 Abril 2020'
+        'CANCELLED': {
+            pl: 'ODWOŁANO',
+            pt: 'CANCELADO'
         },
         'POSTPONED': {
             pl: 'PRZESUNIĘTO',
