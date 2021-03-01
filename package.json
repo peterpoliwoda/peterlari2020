@@ -1,11 +1,11 @@
 {
   "name": "laripeter2020",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "rsvp service for website",
   "main": "rsvpservice.js",
   "dependencies": {
     "@sendgrid/mail": "^7.4.2",
-    "body-parser": "^1.19.3",
+    "body-parser": "^1.19.0",
     "csv-writer": "^1.6.0",
     "dotenv": "^8.2.0",
     "express": "^4.17.1"
